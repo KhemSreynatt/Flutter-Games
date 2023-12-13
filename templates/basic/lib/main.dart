@@ -75,6 +75,7 @@ class MyApp extends StatelessWidget {
           final palette = context.watch<Palette>();
 
           return MaterialApp.router(
+            debugShowCheckedModeBanner: false,
             title: 'My Flutter Game',
             theme: ThemeData.from(
               colorScheme: ColorScheme.fromSeed(
